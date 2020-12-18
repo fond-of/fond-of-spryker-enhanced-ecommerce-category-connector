@@ -5,22 +5,21 @@ namespace FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Plugin\DataLayer
 use Codeception\Test\Unit;
 use FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\EnhancedEcommerceCategoryConnectorFactory;
 use FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Expander\DataLayerExpanderInterface;
-use FondOfSpryker\Yves\EnhancedEcommerceExtension\Dependency\EnhancedEcommerceDataLayerExpanderPluginInterface;
 
 class ProductImpressionsExpanderPluginTest extends Unit
 {
     /**
-     * @var \PHPUnit\Framework\MockObject\MockObject|EnhancedEcommerceCategoryConnectorFactory
+     * @var \PHPUnit\Framework\MockObject\MockObject|\FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\EnhancedEcommerceCategoryConnectorFactory
      */
     protected $factoryMock;
 
     /**
-     * @var \PHPUnit\Framework\MockObject\MockObject|DataLayerExpanderInterface
+     * @var \PHPUnit\Framework\MockObject\MockObject|\FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Expander\DataLayerExpanderInterface
      */
     protected $expanderMock;
 
     /**
-     * @var EnhancedEcommerceDataLayerExpanderPluginInterface
+     * @var \FondOfSpryker\Yves\EnhancedEcommerceExtension\Dependency\EnhancedEcommerceDataLayerExpanderPluginInterface
      */
     protected $plugin;
 

@@ -1,8 +1,6 @@
 <?php
 
-
 namespace FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector;
-
 
 use Codeception\Test\Unit;
 use FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Dependency\EnhancedEcommerceCategoryConnectorToCurrencyClientInterface;
@@ -23,7 +21,7 @@ class EnhancedEcommerceCategoryConnectorFactoryTest extends Unit
     protected $moneyPluginMock;
 
     /**
-     * @var \PHPUnit\Framework\MockObject\MockObject|EnhancedEcommerceCategoryConnectorToCurrencyClientInterface
+     * @var \PHPUnit\Framework\MockObject\MockObject|\FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Dependency\EnhancedEcommerceCategoryConnectorToCurrencyClientInterface
      */
     protected $currencyClientMock;
 

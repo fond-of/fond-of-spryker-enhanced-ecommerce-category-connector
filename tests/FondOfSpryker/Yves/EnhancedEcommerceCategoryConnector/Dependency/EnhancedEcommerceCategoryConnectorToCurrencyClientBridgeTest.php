@@ -4,6 +4,7 @@ namespace FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Dependency;
 
 use Codeception\Test\Unit;
 use Generated\Shared\Transfer\CurrencyTransfer;
+use Spryker\Client\Currency\CurrencyClientInterface;
 
 class EnhancedEcommerceCategoryConnectorToCurrencyClientBridgeTest extends Unit
 {

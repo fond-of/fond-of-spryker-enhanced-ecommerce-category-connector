@@ -4,8 +4,8 @@ namespace FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Expander;
 
 use Codeception\Test\Unit;
 use FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Dependency\EnhancedEcommerceCategoryConnectorToCurrencyClientInterface;
-use Spryker\Yves\Kernel\Container;
 use Spryker\Shared\Money\Dependency\Plugin\MoneyPluginInterface;
+use Spryker\Yves\Kernel\Container;
 
 class DataLayerExpanderTest extends Unit
 {
@@ -15,7 +15,7 @@ class DataLayerExpanderTest extends Unit
     protected $moneyPluginMock;
 
     /**
-     * @var \PHPUnit\Framework\MockObject\MockObject|EnhancedEcommerceCategoryConnectorToCurrencyClientInterface
+     * @var \PHPUnit\Framework\MockObject\MockObject|\FondOfSpryker\Yves\EnhancedEcommerceCategoryConnector\Dependency\EnhancedEcommerceCategoryConnectorToCurrencyClientInterface
      */
     protected $currencyClientMock;
 
